@@ -18,7 +18,7 @@ This DSL models a car garage.
 Main entities:
 - **Cars** — ID, Model and license plate.
 - **Repairs** — linked to cars, describes the repair.
-- **Tasks** — describse work steps inside a repair. Tasks may have subtasks, creating recursion.
+- **Tasks** — describe work steps inside a repair. Tasks may have subtasks, creating recursion.
 
 Operations:
 - `add car <id> "<model>" "<plate>"` — register a car.
@@ -28,8 +28,6 @@ Operations:
 - `list <cars|repairs|tasks>` — list items.
 - `remove <id>` — remove a finished repair after the client has taken the car.
 - `dump examples` — show DSL example commands.
-
-Recursion arises because **tasks can contain subtasks** arbitrarily deep.
 
 ---
 
