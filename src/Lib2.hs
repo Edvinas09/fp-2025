@@ -33,4 +33,4 @@ instance ToCliCommand Lib1.Command where
 -- Usage of "deriving Eq" is forbidden.
 instance Eq Lib1.Command where
   (==) :: Lib1.Command -> Lib1.Command -> Bool
-  _ == _ = False
+  _ == _ = False 
