@@ -50,7 +50,7 @@ data Command
   | AddTask
       { taskId :: Integer,
         title :: String,
-        parentId :: Maybe Integer,
+        parentTaskId :: Maybe Integer,
         repairRef :: Integer,
         mechanicRef :: Maybe Integer,
         status :: Maybe TaskStatus,
